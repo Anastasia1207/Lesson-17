@@ -1,20 +1,20 @@
 console.log('Task-1'); 
 
-const ageGroupe = 78;
+const ageGroup = 78;
 
-if (ageGroupe  > 0 && ageGroupe < 19 ) {
+if (ageGroup  > 0 && ageGroup < 19 ) {
     console.log('1 - 18 years category')
 } 
-else if (ageGroupe > 18 && ageGroupe < 31  ) {
+else if (ageGroup > 18 && ageGroup < 31  ) {
     console.log('19 - 30 years category')
 }
-else if (ageGroupe > 30 && ageGroupe < 41) {
+else if (ageGroup > 30 && ageGroup < 41) {
     console.log('31 - 40 years category')
 }
-if (ageGroupe > 40 && ageGroupe < 51 ) {
+if (ageGroup > 40 && ageGroup < 51 ) {
     console.log('41 - 50 years category')
 }
-if (ageGroupe > 50 && ageGroupe  ) {
+if (ageGroup > 50 && ageGroup  ) {
     console.log('51 + years category')
 }
 
@@ -23,7 +23,7 @@ console.log('Task-2');
 
 const num2 = 12;
 
-if (num2 % 2 == 0) {
+if (num2 % 2 === 0) {
     console.log('even number');
 } else  {
     console.log('odd number');
