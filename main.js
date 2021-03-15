@@ -11,10 +11,10 @@ else if (ageGroup > 18 && ageGroup < 31  ) {
 else if (ageGroup > 30 && ageGroup < 41) {
     console.log('31 - 40 years category')
 }
-if (ageGroup > 40 && ageGroup < 51 ) {
+else if (ageGroup > 40 && ageGroup < 51 ) {
     console.log('41 - 50 years category')
 }
-if (ageGroup > 50 && ageGroup  ) {
+else (ageGroup > 50 && ageGroup  ) {
     console.log('51 + years category')
 }
 
