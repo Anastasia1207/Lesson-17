@@ -21,9 +21,9 @@ if (ageGroupe > 50 && ageGroupe  ) {
 
 console.log('Task-2'); 
 
-const Number = 12;
+const num2 = 12;
 
-if (Number % 2 == 0) {
+if (num2 % 2 == 0) {
     console.log('even number');
 } else  {
     console.log('odd number');
@@ -32,7 +32,7 @@ if (Number % 2 == 0) {
 
 console.log('Task-3'); 
 
-var num6 = 37;
+let num6 = 37;
 
 if ( num6 % 2 === 0 && num6 % 3 === 0 ) {
     console.log('Fizz and Bazz');
